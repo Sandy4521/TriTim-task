@@ -1,0 +1,89 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* nav */
+.navSection {
+  width: 100%;
+  transition: .6s ease;
+
+}
+
+.navbar-style {
+  color: #ffffff !important;
+}
+
+
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .fa-bars,
+.navbar-scroll .navar-brand {
+  color: #ffffff;
+}
+
+.navbar-scroll .nav-link:hover {
+  color: #7f8896;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .fa-bars,
+.navbar-scrolled .navar-brand {
+  color: #4f4f4f;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar.navbar-scroll.navbar-scrolled
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-scroll.navbar-scrolled {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* Header text */
+#header_text {
+
+  padding-top: 400px;
+  color: #ffffff;
+}
+
+h2 {
+  text-align: left;
+  margin-top: 10px;
+}
+
+p {
+  text-align: left;
+}
+
+.use_text {
+  padding-top: 10px;
+  text-align: left;
+}
+
+
+.titlepage {
+  margin-top: 120px;
+  margin-bottom: 130px;
+}
+
+figure {
+  background-color: #56BDE3;
+  height: 3px;
+}
+
+.services_box {
+  padding-bottom: 120px;
+}
+
+/* img banner 2 */
+.img_banner2 {
+  padding-top: 500px;
+  color: #ffffff;
+}
